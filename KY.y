@@ -52,5 +52,5 @@ int main() {
 	return yylex();  
 }  
 
-void yyerror(const char *s){ printf("\nFAILURE\n"); }
+void yyerror(const char *s){ printf("\nFAILURE :(\n"); }
 int yywrap(){ return 1; }
